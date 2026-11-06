@@ -1,0 +1,11 @@
+{
+  "brand_banned_words": ["最好", "第一", "100%", "根治", "绝不绝不", "神器"],
+  "claim_policy": "凡包含百分比、倍数、排名等效果型结论的表述，必须能在已检索素材的 facts 中找到原文依据，否则判为违规（编造事实）。",
+  "citation_policy": "脚本中引用的每个素材 ID 必须真实存在于本次检索结果中；引用不存在的 ID 判为违规。",
+  "duration_tolerance_sec": 0,
+  "platform_rules": {
+    "douyin": { "max_duration_sec": 60, "note": "抖音短视频建议不超过 60 秒" },
+    "kuaishou": { "max_duration_sec": 60, "note": "快手短视频建议不超过 60 秒" },
+    "xiaohongshu": { "max_duration_sec": 90, "note": "小红书视频建议不超过 90 秒" }
+  }
+}

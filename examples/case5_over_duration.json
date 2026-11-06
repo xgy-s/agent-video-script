@@ -1,0 +1,307 @@
+{
+  "task": {
+    "topic": "便携榨汁杯",
+    "audience": "上班族",
+    "platform": "douyin",
+    "duration": 30,
+    "style": "活泼"
+  },
+  "started_at": "2026-11-06T14:38:29.409929+00:00",
+  "limits": {
+    "max_steps": 12,
+    "max_tool_calls": 15
+  },
+  "steps": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "arguments": {
+        "query": "便携榨汁杯"
+      },
+      "result_summary": "命中 3 条素材: ['P01', 'P02', 'P05']",
+      "rationale": "先检索与主题相关的素材"
+    },
+    {
+      "step": 2,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "通勤党狂喜：便携榨汁杯实测",
+          "shots": [
+            {
+              "idx": 1,
+              "visual": "特写：产品从通勤包取出",
+              "narration": "通勤路上也能喝到鲜榨果汁？",
+              "material_ids": []
+            },
+            {
+              "idx": 2,
+              "visual": "参数字幕+实测画面",
+              "narration": "先看硬参数：杯身 450ml，重量 380g，可放入通勤包侧袋，通勤、出差、健身房随手就能用，早上多睡十分钟也来得及做一杯",
+              "material_ids": [
+                "P01"
+              ]
+            },
+            {
+              "idx": 3,
+              "visual": "使用过程演示",
+              "narration": "再看使用体验：支持 USB-C 充电，满电可榨 8 杯，操作零门槛，老人孩子都能上手，清洗也不费劲",
+              "material_ids": [
+                "P01"
+              ]
+            },
+            {
+              "idx": 4,
+              "visual": "产品全家福+关注引导",
+              "narration": "喜欢点关注，评论区见",
+              "material_ids": []
+            }
+          ]
+        }
+      },
+      "result_summary": "total=35.6s target=30s within_limit=False",
+      "rationale": "起草完整脚本，先估算是否满足目标时长"
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "通勤党狂喜：便携榨汁杯实测",
+          "shots": [
+            {
+              "idx": 1,
+              "visual": "特写：产品从通勤包取出",
+              "narration": "通勤路上也能喝到鲜榨果汁？",
+              "material_ids": []
+            },
+            {
+              "idx": 2,
+              "visual": "参数字幕+实测画面",
+              "narration": "杯身 450ml，重量 380g，可放入通勤包侧袋",
+              "material_ids": [
+                "P01"
+              ]
+            },
+            {
+              "idx": 3,
+              "visual": "使用过程演示",
+              "narration": "支持 USB-C 充电，满电可榨 8 杯",
+              "material_ids": [
+                "P01"
+              ]
+            },
+            {
+              "idx": 4,
+              "visual": "产品全家福+关注引导",
+              "narration": "喜欢点关注，评论区见",
+              "material_ids": []
+            }
+          ]
+        }
+      },
+      "result_summary": "total=21.1s target=30s within_limit=True",
+      "rationale": "上一版超出目标时长，压缩旁白后重新估算"
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "通勤党狂喜：便携榨汁杯实测",
+          "shots": [
+            {
+              "idx": 1,
+              "visual": "特写：产品从通勤包取出",
+              "narration": "通勤路上也能喝到鲜榨果汁？",
+              "material_ids": []
+            },
+            {
+              "idx": 2,
+              "visual": "参数字幕+实测画面",
+              "narration": "杯身 450ml，重量 380g，可放入通勤包侧袋",
+              "material_ids": [
+                "P01"
+              ]
+            },
+            {
+              "idx": 3,
+              "visual": "使用过程演示",
+              "narration": "支持 USB-C 充电，满电可榨 8 杯",
+              "material_ids": [
+                "P01"
+              ]
+            },
+            {
+              "idx": 4,
+              "visual": "产品全家福+关注引导",
+              "narration": "喜欢点关注，评论区见",
+              "material_ids": []
+            }
+          ]
+        }
+      },
+      "result_summary": "passed=True violations=[]",
+      "rationale": "时长达标，提交前做品牌/事实规则检查"
+    },
+    {
+      "step": 5,
+      "action": "submit_script",
+      "arguments": {
+        "script": {
+          "title": "通勤党狂喜：便携榨汁杯实测",
+          "shots": [
+            {
+              "idx": 1,
+              "visual": "特写：产品从通勤包取出",
+              "narration": "通勤路上也能喝到鲜榨果汁？",
+              "material_ids": []
+            },
+            {
+              "idx": 2,
+              "visual": "参数字幕+实测画面",
+              "narration": "杯身 450ml，重量 380g，可放入通勤包侧袋",
+              "material_ids": [
+                "P01"
+              ]
+            },
+            {
+              "idx": 3,
+              "visual": "使用过程演示",
+              "narration": "支持 USB-C 充电，满电可榨 8 杯",
+              "material_ids": [
+                "P01"
+              ]
+            },
+            {
+              "idx": 4,
+              "visual": "产品全家福+关注引导",
+              "narration": "喜欢点关注，评论区见",
+              "material_ids": []
+            }
+          ]
+        },
+        "risk_notes": "事实均引用素材原文；无效果型结论"
+      },
+      "result_summary": "提交脚本：4 个分镜",
+      "rationale": "检查通过，提交最终脚本"
+    }
+  ],
+  "status": "completed",
+  "output": {
+    "status": "completed",
+    "title": "通勤党狂喜：便携榨汁杯实测",
+    "shots": [
+      {
+        "idx": 1,
+        "visual": "特写：产品从通勤包取出",
+        "narration": "通勤路上也能喝到鲜榨果汁？",
+        "material_ids": [],
+        "seconds": 4.4,
+        "narration_chars": 13,
+        "facts_from_materials": []
+      },
+      {
+        "idx": 2,
+        "visual": "参数字幕+实测画面",
+        "narration": "杯身 450ml，重量 380g，可放入通勤包侧袋",
+        "material_ids": [
+          "P01"
+        ],
+        "seconds": 7.1,
+        "narration_chars": 25,
+        "facts_from_materials": [
+          "杯身 450ml，重量 380g，可放入通勤包侧袋",
+          "支持 USB-C 充电，满电可榨 8 杯",
+          "支持一键双击启动，40 秒出汁",
+          "支持字幕配件：随杯附赠刻度贴"
+        ]
+      },
+      {
+        "idx": 3,
+        "visual": "使用过程演示",
+        "narration": "支持 USB-C 充电，满电可榨 8 杯",
+        "material_ids": [
+          "P01"
+        ],
+        "seconds": 5.9,
+        "narration_chars": 20,
+        "facts_from_materials": [
+          "杯身 450ml，重量 380g，可放入通勤包侧袋",
+          "支持 USB-C 充电，满电可榨 8 杯",
+          "支持一键双击启动，40 秒出汁",
+          "支持字幕配件：随杯附赠刻度贴"
+        ]
+      },
+      {
+        "idx": 4,
+        "visual": "产品全家福+关注引导",
+        "narration": "喜欢点关注，评论区见",
+        "material_ids": [],
+        "seconds": 3.7,
+        "narration_chars": 10,
+        "facts_from_materials": []
+      }
+    ],
+    "per_shot_seconds": {
+      "1": 4.4,
+      "2": 7.1,
+      "3": 5.9,
+      "4": 3.7
+    },
+    "total_seconds": 21.1,
+    "target_seconds": 30,
+    "remaining_seconds": 8.9,
+    "material_ids": [
+      "P01",
+      "P02",
+      "P05"
+    ],
+    "checks": {
+      "duration": {
+        "total_seconds": 21.1,
+        "target_seconds": 30,
+        "within_limit": true,
+        "per_shot": [
+          {
+            "idx": 1,
+            "narration_chars": 13,
+            "seconds": 4.4,
+            "material_ids": []
+          },
+          {
+            "idx": 2,
+            "narration_chars": 25,
+            "seconds": 7.1,
+            "material_ids": [
+              "P01"
+            ]
+          },
+          {
+            "idx": 3,
+            "narration_chars": 20,
+            "seconds": 5.9,
+            "material_ids": [
+              "P01"
+            ]
+          },
+          {
+            "idx": 4,
+            "narration_chars": 10,
+            "seconds": 3.7,
+            "material_ids": []
+          }
+        ]
+      },
+      "rules": {
+        "passed": true,
+        "violations": [],
+        "violation_details": [],
+        "checked_shots": 4
+      }
+    },
+    "risk_notes": "事实均引用素材原文；无效果型结论",
+    "note": "脚本草稿，未发布"
+  },
+  "finished_at": "2026-11-06T14:38:29.409929+00:00"
+}
